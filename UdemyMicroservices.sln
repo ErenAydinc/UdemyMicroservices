@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1148EE6-378A-4379-9594-1B0754893A20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{80FF0E1D-3284-4A01-973B-FBD9F4C45EAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "catalog", "catalog", "{E8DDE64A-AD04-420E-A25E-7DEFC9544FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Catalog", "src\services\catalog\Microservice.Catalog\Microservice.Catalog.csproj", "{D5EC3C9D-D030-4360-8CFB-F4A09A66D3B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{303B47B9-FE29-48DD-B07F-8E61850B77F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Shared", "src\shared\Microservice.Shared\Microservice.Shared.csproj", "{00D70CF1-72D3-4EF3-807A-10EE0098BDE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5EC3C9D-D030-4360-8CFB-F4A09A66D3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EC3C9D-D030-4360-8CFB-F4A09A66D3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EC3C9D-D030-4360-8CFB-F4A09A66D3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EC3C9D-D030-4360-8CFB-F4A09A66D3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D70CF1-72D3-4EF3-807A-10EE0098BDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D70CF1-72D3-4EF3-807A-10EE0098BDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D70CF1-72D3-4EF3-807A-10EE0098BDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D70CF1-72D3-4EF3-807A-10EE0098BDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80FF0E1D-3284-4A01-973B-FBD9F4C45EAA} = {C1148EE6-378A-4379-9594-1B0754893A20}
+		{E8DDE64A-AD04-420E-A25E-7DEFC9544FED} = {80FF0E1D-3284-4A01-973B-FBD9F4C45EAA}
+		{D5EC3C9D-D030-4360-8CFB-F4A09A66D3B5} = {E8DDE64A-AD04-420E-A25E-7DEFC9544FED}
+		{303B47B9-FE29-48DD-B07F-8E61850B77F8} = {C1148EE6-378A-4379-9594-1B0754893A20}
+		{00D70CF1-72D3-4EF3-807A-10EE0098BDE1} = {303B47B9-FE29-48DD-B07F-8E61850B77F8}
+	EndGlobalSection
+EndGlobal
